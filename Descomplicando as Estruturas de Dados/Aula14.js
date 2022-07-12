@@ -45,8 +45,9 @@ class HashTable {
 }
 
 const meusContatos = new HashTable();
-meusContatos.put('Gabriel', '99883344');
-meusContatos.put('Vanessa', '44553322');
-meusContatos.put('Felipe', '11223344');
+meusContatos.put('gabriel', '99883344');
+meusContatos.put('vanessa', '44553322');
+meusContatos.put('felipe', '11223344');
 
 console.table(meusContatos.table);
+console.log(meusContatos.get('Vanessa'));
